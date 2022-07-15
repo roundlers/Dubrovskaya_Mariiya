@@ -1,0 +1,730 @@
+{
+	"info": {
+		"_postman_id": "2998f0fa-242d-4d51-9ad2-5ec603f2e51b",
+		"name": "Курсовая работа 1-2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20431251"
+	},
+	"item": [
+		{
+			"name": "Тест-кейс 1-2. Создание события с валидными данными в прошлом месяце, изменение",
+			"item": [
+				{
+					"name": "тест-кейс 1.Создание события с валидными данными в прошлом месяце",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var key = \"UserId\"\r",
+									"var value = pm.response.json().data.payload.id \r",
+									"pm.collectionVariables.set(key, value);\r",
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Cookie",
+								"value": "token_global={{MyToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"startAt\":\"2022-04-27T11:00:00+02:00\",\r\n\"endAt\":\"2022-04-27T11:30:00+02:00\",\r\n\"title\":\"Д Васяня\",\r\n\"description\":\"урок 2\",\r\n\"color\":\"#81888D\",\r\n\"backgroundColor\":\"#F4F5F6\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BaseURL}}/{{ver}}/schedule/createPersonal",
+							"host": [
+								"{{BaseURL}}"
+							],
+							"path": [
+								"{{ver}}",
+								"schedule",
+								"createPersonal"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "тест-кейс 2.Редактирование события: перенос события из прошлого в будущее",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var key = \"UserId\"\r",
+									"var value = pm.response.json().data.payload.id \r",
+									"pm.collectionVariables.set(key, value);\r",
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Cookie",
+								"value": "token_global={{MyToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"backgroundColor\": \"#F4F5F6\",\r\n    \"color\": \"#81888D\",\r\n    \"description\": \"урок 2\",\r\n    \"title\": \"Д Васяня\",\r\n    \"startAt\": \"2022-06-27T15:00:00+02:00\",\r\n    \"endAt\": \"2022-06-27T15:30:00+02:00\",\r\n    \"id\":{{UserId}},\r\n    \"oldStartAt\": \"2022-04-27T11:00:00+02:00\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BaseURL}}/{{ver}}/schedule/updatePersonal",
+							"host": [
+								"{{BaseURL}}"
+							],
+							"path": [
+								"{{ver}}",
+								"schedule",
+								"updatePersonal"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Удаление события",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Cookie",
+								"value": "token_global={{MyToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"startAt\": \"2022-06-27T15:00:00+02:00\",\r\n    \"id\":{{UserId}}\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BaseURL}}/{{ver}}/schedule/removePersonal",
+							"host": [
+								"{{BaseURL}}"
+							],
+							"path": [
+								"{{ver}}",
+								"schedule",
+								"removePersonal"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Тест-кейс 3,4,5. Создание события с невалидными данными, изменение всех параметров события, удаление события",
+			"item": [
+				{
+					"name": "Тест-кейс 3. Создание события с  некорректным цветом",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var key = \"UserId2\"\r",
+									"var value = pm.response.json().data.payload.id \r",
+									"pm.collectionVariables.set(key, value);\r",
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Cookie",
+								"value": "token_global={{MyToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"startAt\":\"2022-06-15T11:00:00+02:00\",\r\n\"endAt\":\"2022-06-15T11:30:00+02:00\",\r\n\"title\":\"f Reedom\",\r\n\"description\":\"урок пробный\",\r\n\"color\":\"#000FFF\",\r\n\"backgroundColor\":\"#000FFF\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BaseURL}}/{{ver}}/schedule/createPersonal",
+							"host": [
+								"{{BaseURL}}"
+							],
+							"path": [
+								"{{ver}}",
+								"schedule",
+								"createPersonal"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Тест-кейс 4. Изменение всех параметров события сразу",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var key = \"UserId2\"\r",
+									"var value = pm.response.json().data.payload.id \r",
+									"pm.collectionVariables.set(key, value);\r",
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Cookie",
+								"value": "token_global={{MyToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"backgroundColor\": \"#F4F5F6\",\r\n    \"color\": \"#81888D\",\r\n    \"description\": \"\",\r\n    \"title\": \"fc Reedom\",\r\n    \"startAt\": \"2022-06-15T14:00:00+02:00\",\r\n    \"endAt\": \"2022-06-15T14:30:00+02:00\",\r\n    \"id\": {{UserId2}},\r\n    \"oldStartAt\": \"2022-06-15T11:00:00+02:00\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BaseURL}}/{{ver}}/schedule/updatePersonal",
+							"host": [
+								"{{BaseURL}}"
+							],
+							"path": [
+								"{{ver}}",
+								"schedule",
+								"updatePersonal"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Тест-кейс 5. Удаление события из будущего",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Cookie",
+								"value": "token_global={{MyToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"startAt\": \"2022-06-15T14:00:00+02:00\",\r\n    \"id\":{{UserId2}}\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BaseURL}}/{{ver}}/schedule/removePersonal",
+							"host": [
+								"{{BaseURL}}"
+							],
+							"path": [
+								"{{ver}}",
+								"schedule",
+								"removePersonal"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Тест кейс 6. Корректное отображение личных событий в расписании",
+			"item": [
+				{
+					"name": "Тест-кейс 6.Корректное отображение личных событий в расписании",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Cookie",
+								"value": "token_global={{MyToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"from\": \"2022-05-01T02:00:00+02:00\",\r\n    \"till\": \"2022-05-04T15:30:00+02:00\",\r\n    \"onlyTypes\": [\r\n        \"slot\",\r\n        \"event\"\r\n    ],\r\n    \"statuses\": [\r\n        \"without_status\"\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BaseURL}}/{{ver}}/schedule/events",
+							"host": [
+								"{{BaseURL}}"
+							],
+							"path": [
+								"{{ver}}",
+								"schedule",
+								"events"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Тест-кейс 7. Удаление ранее удаленного события",
+			"item": [
+				{
+					"name": "Тест-кейс 7. Удаление ранее удаленного события",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Cookie",
+								"value": "token_global={{MyToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"startAt\": \"2022-06-15T14:00:00+02:00\",\r\n    \"id\":{{UserId2}}\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BaseURL}}/{{ver}}/schedule/removePersonal",
+							"host": [
+								"{{BaseURL}}"
+							],
+							"path": [
+								"{{ver}}",
+								"schedule",
+								"removePersonal"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Тест-кейс 8. Создание личного события с некорректной датой",
+			"item": [
+				{
+					"name": "Тест-кейс 8. Создание события с  некорректной датой",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"\r",
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Cookie",
+								"value": "token_global={{MyToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"startAt\":\"0222-06-15T11:00:00+02:00\",\r\n\"endAt\":\"2022-06-15T11:30:00+02:00\",\r\n\"title\":\"Л Лонин\",\r\n\"description\":\"урок\",\r\n\"color\":\"#81888D\",\r\n\"backgroundColor\":\"#F4F5F6\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BaseURL}}/{{ver}}/schedule/createPersonal",
+							"host": [
+								"{{BaseURL}}"
+							],
+							"path": [
+								"{{ver}}",
+								"schedule",
+								"createPersonal"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Тест-кейс 9. Создание события с неустановленной датой",
+			"item": [
+				{
+					"name": "Тест-кейс 9. Создание события с  неустановленной датой",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"\r",
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Cookie",
+								"value": "token_global={{MyToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"startAt\":\"\",\r\n\"endAt\":\"\",\r\n\"title\":\"Л Сорин\",\r\n\"description\":\"урок\",\r\n\"color\":\"#81888D\",\r\n\"backgroundColor\":\"#F4F5F6\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BaseURL}}/{{ver}}/schedule/createPersonal",
+							"host": [
+								"{{BaseURL}}"
+							],
+							"path": [
+								"{{ver}}",
+								"schedule",
+								"createPersonal"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Тест-кейс 10. Создание события с именем более 40 символов",
+			"item": [
+				{
+					"name": "Тест-кейс 10. Создание события с  именем превышающим 40 символов",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"\r",
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Cookie",
+								"value": "token_global={{MyToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"startAt\":\"2022-06-03T11:30:00+02:00\",\r\n\"endAt\":\"2022-06-03T12:30:00+02:00\",\r\n\"title\":\"УваровУваровУваровУваровУваровУваровУваровУваровУваровУваров\",\r\n\"description\":\"урок\",\r\n\"color\":\"#81888D\",\r\n\"backgroundColor\":\"#F4F5F6\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BaseURL}}/{{ver}}/schedule/createPersonal",
+							"host": [
+								"{{BaseURL}}"
+							],
+							"path": [
+								"{{ver}}",
+								"schedule",
+								"createPersonal"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Тест-кейс 11. Создание личного события по времени совпадающего с уроком",
+			"item": [
+				{
+					"name": "Тест-кейс 11. Создание события по времени совпадающее с уроком",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var key = \"UserId6\"\r",
+									"var value = pm.response.json().data.payload.id \r",
+									"pm.collectionVariables.set(key, value);\r",
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Cookie",
+								"value": "token_global={{MyToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"startAt\":\"2022-06-13T12:00:00+02:00\",\r\n\"endAt\":\"2022-06-13T12:30:00+02:00\",\r\n\"title\":\"D sEMENOV 5\",\r\n\"description\":\"FIX lesson 50$ per lesson\",\r\n\"color\":\"#81888D\",\r\n\"backgroundColor\":\"#F4F5F6\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BaseURL}}/{{ver}}/schedule/createPersonal",
+							"host": [
+								"{{BaseURL}}"
+							],
+							"path": [
+								"{{ver}}",
+								"schedule",
+								"createPersonal"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Тест-кейс 11. Удаление события",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Cookie",
+								"value": "token_global={{MyToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"startAt\": \"2022-06-13T10:00:00+00:00\",\r\n    \"id\":{{UserId6}}\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BaseURL}}/{{ver}}/schedule/removePersonal",
+							"host": [
+								"{{BaseURL}}"
+							],
+							"path": [
+								"{{ver}}",
+								"schedule",
+								"removePersonal"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "UserId",
+			"value": ""
+		},
+		{
+			"key": "MyToken",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "BaseURL",
+			"value": "https://api-teachers.skyeng.ru"
+		},
+		{
+			"key": "ver",
+			"value": "v2"
+		},
+		{
+			"key": "UserId2",
+			"value": ""
+		},
+		{
+			"key": "UserId6",
+			"value": ""
+		},
+		{
+			"key": "UserId7",
+			"value": ""
+		}
+	]
+}
