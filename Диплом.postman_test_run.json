@@ -1,0 +1,173 @@
+{
+	"id": "1d4f14c6-43e9-4e19-96f6-a89db19fb4da",
+	"name": "Диплом",
+	"timestamp": "2022-08-14T20:12:08.861Z",
+	"collection_id": "20431251-1b6956ab-d2c5-4609-a820-aa00e8591161",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 5,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "469de556-d0d7-44b4-bc38-20d017b19b75",
+			"name": "вход с токеном",
+			"url": "https://api-vimbox.skyeng.ru/api/v1/compilations/showcase",
+			"time": 4243,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4243
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "9b741e37-edf7-48b3-a35b-be903b19ac94",
+			"name": "данные преподавателя при авторизации",
+			"url": "https://rooms-vimbox.skyeng.ru/users/api/v2/auth/config",
+			"time": 136,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				136
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "f5fca087-f048-4a0c-8100-7cc5fa635f6b",
+			"name": "выбор комнаты учителем",
+			"url": "https://rooms-vimbox.skyeng.ru/rooms/api/v1/rooms",
+			"time": 70,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				70
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "1bebe50c-d37f-4ebd-9403-524e76e13393",
+			"name": "список студентов в кабинете учителя",
+			"url": "https://rooms-vimbox.skyeng.ru/users/api/v1/teachers/10338736/students",
+			"time": 129,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				129
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ddb2f1f9-fece-43e4-8340-b37e59821f03",
+			"name": "Запрос конкретного видео по его Id",
+			"url": "https://content-vimbox.skyeng.ru/lesson/getLessonInfoByLessonId/id/3464",
+			"time": 245,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				245
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 4823,
+	"collection": {
+		"requests": [
+			{
+				"id": "469de556-d0d7-44b4-bc38-20d017b19b75",
+				"method": "GET"
+			},
+			{
+				"id": "9b741e37-edf7-48b3-a35b-be903b19ac94",
+				"method": "POST"
+			},
+			{
+				"id": "f5fca087-f048-4a0c-8100-7cc5fa635f6b",
+				"method": "POST"
+			},
+			{
+				"id": "1bebe50c-d37f-4ebd-9403-524e76e13393",
+				"method": "GET"
+			},
+			{
+				"id": "ddb2f1f9-fece-43e4-8340-b37e59821f03",
+				"method": "GET"
+			}
+		]
+	}
+}
