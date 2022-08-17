@@ -1,0 +1,497 @@
+Date: Wed, 17 Aug 2022 10:13:06 +0000 (UTC)
+Message-ID: <1811085496.31.1660731186365@e15f8587b6d4>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_30_896856046.1660731186364"
+
+------=_Part_30_896856046.1660731186364
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>=D0=9F=D0=BB=D0=B0=D0=BD =D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=
+=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>=D0=9F=D0=BB=D0=B0=D0=BD =D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=BE=
+=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F</h1>
+    <div class=3D"Section1">
+        <p>=D0=9F=D1=80=D0=BE=D0=B4=D1=83=D0=BA=D1=82: 1) =D0=B2=D0=B5=D0=
+=B1-=D0=BF=D1=80=D0=B8=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=B8=D0=B5 =D0=B4=D0=
+=BB=D1=8F =D1=83=D1=87=D0=B8=D1=82=D0=B5=D0=BB=D0=B5=D0=B9 =D0=BE=D1=82&nbs=
+p;Skyeng,</p>
+<p>2) App version: Skyeng 9.65.0(568):SDK 6.4</p>
+<p>=D0=97=D0=B0=D0=BA=D0=B0=D0=B7=D1=87=D0=B8=D0=BA: Skyeng</p>
+<p>=D0=A1=D0=B0=D0=B9=D1=82: <a href=3D"https://teacher.skyeng.ru/teacherCa=
+binet" class=3D"external-link" rel=3D"nofollow">https://teacher.skyeng.ru/t=
+eacherCabinet</a></p>
+<p></p>
+<p><strong>=D0=9E=D1=81=D0=BD=D0=BE=D0=B2=D0=BD=D1=8B=D0=B5 =D1=82=D1=80=D0=
+=B5=D0=B1=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F</strong></p>
+<p>=D0=9D=D0=B0 =D0=BF=D0=BE=D1=80=D1=82=D0=B0=D0=BB=D0=B5 =D1=83=D1=87=D0=
+=B8=D1=82=D0=B5=D0=BB=D0=B5=D0=B9 =D0=B2=D0=BE =D0=B2=D0=BA=D0=BB=D0=B0=D0=
+=B4=D0=BA=D0=B5 <em><strong>=D0=92=D0=B8=D0=B4=D0=B5=D0=BE=D0=BF=D1=80=D0=
+=B0=D0=BA=D1=82=D0=B8=D0=BA=D0=B0</strong></em> =D0=B2=D1=8B=D0=B1=D0=BE=D1=
+=80 =D0=BA=D0=BE=D0=BD=D0=BA=D1=80=D0=B5=D1=82=D0=BD=D0=BE=D0=B3=D0=BE =D0=
+=B2=D0=B8=D0=B4=D0=B5=D0=BE=D1=83=D1=80=D0=BE=D0=BA=D0=B0 =D0=B8 =D0=B0=D0=
+=BD=D0=B0=D0=BB=D0=B8=D0=B7 =D0=B2=D1=85=D0=BE=D0=B4=D0=B0, =D0=B2=D0=BE=D0=
+=B7=D0=BC=D0=BE=D0=B6=D0=BD=D1=8B=D1=85 =D0=B4=D0=B5=D0=B9=D1=81=D1=82=D0=
+=B2=D0=B8=D0=B9 =D0=B8 =D1=84=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=
+=B0=D0=BB=D0=B0 =D0=B2=D0=B5=D0=B1-=D0=BA=D0=BE=D0=BC=D0=BD=D0=B0=D1=82=D1=
+=8B.</p>
+<p>=D0=9F=D1=80=D0=B5=D0=BF=D0=BE=D0=B4=D0=B0=D0=B2=D0=B0=D1=82=D0=B5=D0=BB=
+=D1=8C =D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D1=83=D0=B5=D1=82 =D1=84=
+=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB =D0=B2=D0=B5=D0=B1-=
+=D0=BA=D0=BE=D0=BC=D0=BD=D0=B0=D1=82=D1=8B =D0=B4=D0=BB=D1=8F =D0=BF=D1=80=
+=D0=BE=D0=B2=D0=B5=D0=B4=D0=B5=D0=BD=D0=B8=D1=8F =D0=BE=D0=BD=D0=BB=D0=B0=
+=D0=B9=D0=BD =D1=83=D1=80=D0=BE=D0=BA=D0=B0 =D1=81 =D1=83=D1=87=D0=B5=D0=BD=
+=D0=B8=D0=BA=D0=BE=D0=BC c =D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=
+=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5=D0=BC =D0=B2=D0=B8=D0=B4=D0=B5=D0=BE=D0=BA=
+=D0=B0=D0=BC=D0=B5=D1=80=D1=8B =D0=B8 =D0=BC=D0=B8=D0=BA=D1=80=D0=BE=D1=84=
+=D0=BE=D0=BD=D0=B0 =D0=B8=D0=BB=D0=B8 =D0=B1=D0=B5=D0=B7 =D0=BD=D0=B8=D1=85=
+.</p>
+<p><u>=D0=9E=D1=81=D0=BD=D0=BE=D0=B2=D0=BD=D0=B0=D1=8F =D1=86=D0=B5=D0=BB=
+=D1=8C =D0=BD=D0=B0=D1=88=D0=B5=D0=B3=D0=BE =D0=B7=D0=B0=D0=BA=D0=B0=D0=B7=
+=D1=87=D0=B8=D0=BA=D0=B0 </u>- =D0=BD=D0=B0=D0=BB=D0=B8=D1=87=D0=B8=D0=B5 =
+=D1=83 =D0=BF=D1=80=D0=B5=D0=BF=D0=BE=D0=B4=D0=B0=D0=B2=D0=B0=D1=82=D0=B5=
+=D0=BB=D1=8F =D0=B2=D0=BE=D0=B7=D0=BC=D0=BE=D0=B6=D0=BD=D0=BE=D1=81=D1=82=
+=D0=B8 =D0=B2=D1=8B=D0=B1=D0=B8=D1=80=D0=B0=D1=82=D1=8C =D1=83=D1=87=D0=B5=
+=D0=BD=D0=B8=D0=BA=D0=B0, =D0=BF=D1=80=D0=BE=D0=B2=D0=BE=D0=B4=D0=B8=D1=82=
+=D1=8C =D1=81 =D0=BD=D0=B8=D0=BC =D0=B2=D0=B8=D0=B4=D0=B5=D0=BE=D1=83=D1=80=
+=D0=BE=D0=BA =D0=B2 =D0=B2=D0=B5=D0=B1-=D0=BA=D0=BE=D0=BC=D0=BD=D0=B0=D1=82=
+=D0=B5, =D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D1=83=D1=8F =D0=B2=D1=81=
+=D0=B5 =D0=B2=D0=B8=D0=B4=D1=8B =D0=BF=D1=80=D0=B5=D0=B4=D0=B7=D0=B0=D0=BF=
+=D0=B8=D1=81=D0=B0=D0=BD=D0=BD=D1=8B=D1=85 =D0=BC=D0=B0=D1=82=D0=B5=D1=80=
+=D0=B8=D0=B0=D0=BB=D0=BE=D0=B2, =D0=B8=D0=BC=D0=B5=D1=8E=D1=89=D0=B8=D1=85=
+=D1=81=D1=8F =D0=BD=D0=B0 =D0=BF=D0=BB=D0=B0=D1=82=D1=84=D0=BE=D1=80=D0=BC=
+=D0=B5 Skyeng.</p>
+<p></p>
+<p>=D0=91=D1=83=D0=B4=D1=83=D1=82 =D0=BF=D1=80=D0=BE=D0=B2=D0=B5=D0=B4=D0=
+=B5=D0=BD=D1=8B =D1=81=D0=BB=D0=B5=D0=B4=D1=83=D1=8E=D1=89=D0=B8=D0=B5 <str=
+ong>=D0=B2=D0=B8=D0=B4=D1=8B =D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=BE=D0=
+=B2=D0=B0=D0=BD=D0=B8=D1=8F</strong>:</p>
+<ul>
+<li><p>=D1=84=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C=
+=D0=BD=D0=BE=D0=B5 =D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=
+=D0=BD=D0=B8=D0=B5 =D0=B2=D0=BA=D0=BB=D0=B0=D0=B4=D0=BA=D0=B8 =E2=80=9C=D0=
+=92=D0=B8=D0=B4=D0=B5=D0=BE=D0=BF=D1=80=D0=B0=D0=BA=D1=82=D0=B8=D0=BA=D0=B0=
+=E2=80=9D =D0=B4=D0=BB=D1=8F =D0=9F=D1=80=D0=B5=D0=BF=D0=BE=D0=B4=D0=B0=D0=
+=B2=D0=B0=D1=82=D0=B5=D0=BB=D1=8F ;</p></li>
+<li><p>=D1=84=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C=
+=D0=BD=D0=BE=D0=B5 =D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=
+=D0=BD=D0=B8=D0=B5 =D0=B2=D0=BA=D0=BB=D0=B0=D0=B4=D0=BA=D0=B8 =E2=80=9C=D0=
+=92=D0=B8=D0=B4=D0=B5=D0=BE=D0=BF=D1=80=D0=B0=D0=BA=D1=82=D0=B8=D0=BA=D0=B0=
+=E2=80=9D =D0=B4=D0=BB=D1=8F =D0=A3=D1=87=D0=B5=D0=BD=D0=B8=D0=BA=D0=B0;</p=
+></li>
+<li><p>=D0=BE=D1=81=D0=BE=D0=B1=D1=8B=D0=B5 =D0=B2=D0=B8=D0=B4=D1=8B =D0=BC=
+=D0=BE=D0=B1=D0=B8=D0=BB=D1=8C=D0=BD=D0=BE=D0=B3=D0=BE =D1=82=D0=B5=D1=81=
+=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5 (=D0=B8=D0=BD=D1=81=
+=D1=82=D0=B0=D0=BB=D0=BB=D1=8F=D1=86=D0=B8=D0=BE=D0=BD=D0=BD=D0=BE=D0=B5 =
+=D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5, =
+=D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5 =
+=D1=81=D0=BE=D0=B2=D0=BC=D0=B5=D1=81=D1=82=D0=B8=D0=BC=D0=BE=D1=81=D1=82=D0=
+=B8, =D1=84=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C=D0=
+=BD=D0=BE=D0=B5 =D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=
+=BD=D0=B8=D0=B5, =D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=
+=BD=D0=B8=D0=B5 =D0=BB=D0=BE=D0=BA=D0=B0=D0=BB=D0=B8=D0=B7=D0=B0=D1=86=D0=
+=B8=D0=B8 =D0=B8 =D0=B3=D0=BB=D0=BE=D0=B1=D0=B0=D0=BB=D0=B8=D0=B7=D0=B0=D1=
+=86=D0=B8=D0=B8, UI/UX =D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=
+=B0=D0=BD=D0=B8=D0=B5, =D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=
+=B0=D0=BD=D0=B8=D0=B5 =D0=BF=D1=80=D0=BE=D0=B8=D0=B7=D0=B2=D0=BE=D0=B4=D0=
+=B8=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D0=BE=D1=81=D1=82=D0=B8).</p></li>
+</ul>
+<p>=D0=9A=D1=80=D0=BE=D0=BC=D0=B5 =D1=82=D0=BE=D0=B3=D0=BE, =D0=B2 =D1=80=
+=D0=B0=D0=B1=D0=BE=D1=82=D0=B5 =D0=B1=D1=83=D0=B4=D0=B5=D1=82 =D0=BF=D1=80=
+=D0=BE=D0=B2=D0=B5=D0=B4=D0=B5=D0=BD=D0=BE <u>=D1=82=D0=B5=D1=81=D1=82=D0=
+=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5 API</u></p>
+<p><strong>=D0=92=D0=B8=D0=B4=D1=8B =D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=
+=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D0=B8 =D1=82=D0=B5=D1=81=D1=82=D0=BE=D0=
+=B2=D0=B0=D1=8F =D0=B4=D0=BE=D0=BA=D1=83=D0=BC=D0=B5=D0=BD=D1=82=D0=B0=D1=
+=86=D0=B8=D1=8F</strong></p>
+<p></p>
+<p><u>=D0=A4=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C=D0=
+=BD=D1=8B=D0=B9 =D1=87=D0=B5=D0=BA-=D0=BB=D0=B8=D1=81=D1=82 =D0=B2=D0=B8=D0=
+=B4=D0=B5=D0=BE=D0=BF=D1=80=D0=B0=D0=BA=D1=82=D0=B8=D0=BA=D0=B8 =D1=81=D0=
+=BE =D1=81=D1=82=D0=BE=D1=80=D0=BE=D0=BD=D1=8B =D0=9F=D1=80=D0=B5=D0=BF=D0=
+=BE=D0=B4=D0=B0=D0=B2=D0=B0=D1=82=D0=B5=D0=BB=D1=8F</u></p>
+<p>=D1=87=D0=B5=D0=BA-=D0=BB=D0=B8=D1=81=D1=82: <a href=3D"https://chlist.s=
+itechco.ru/project/33873/checklist/1294343/details" data-card-appearance=3D=
+"inline" class=3D"external-link" rel=3D"nofollow">https://chlist.sitechco.r=
+u/project/33873/checklist/1294343/details</a> </p>
+<p> <u>=D0=A4=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C=
+=D0=BD=D1=8B=D0=B9 =D1=87=D0=B5=D0=BA-=D0=BB=D0=B8=D1=81=D1=82 =D0=B8 =D0=
+=BE=D1=81=D0=BE=D0=B1=D0=B5=D0=BD=D0=BD=D1=8B=D0=B5 =D0=B2=D0=B8=D0=B4=D1=
+=8B =D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=
+=8F =D0=B2=D0=B8=D0=B4=D0=B5=D0=BE=D0=BF=D1=80=D0=B0=D0=BA=D1=82=D0=B8=D0=
+=BA=D0=B8 =D1=81=D0=BE =D1=81=D1=82=D0=BE=D1=80=D0=BE=D0=BD=D1=8B =D0=A3=D1=
+=87=D0=B5=D0=BD=D0=B8=D0=BA=D0=B0</u></p>
+<p><a href=3D"https://chlist.sitechco.ru/project/33873/checklist/1294346/de=
+tails" data-card-appearance=3D"inline" class=3D"external-link" rel=3D"nofol=
+low">https://chlist.sitechco.ru/project/33873/checklist/1294346/details</a>=
+ </p>
+<p><u>=D0=9A=D0=BE=D0=BB=D0=BB=D0=B5=D0=BA=D1=86=D0=B8=D1=8F Postman =D0=B4=
+=D0=BB=D1=8F API =D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=
+=BD=D0=B8=D1=8F </u></p>
+<p class=3D"media-group"><img height=3D"250" style=3D"margin: 2px; border: =
+1px solid #ddd; box-sizing: border-box; vertical-align: text-bottom;" src=
+=3D"58a8145fbff19f24bb3832de0f43f94b" width=3D"250"></p>
+<p><strong>=D0=A0=D0=B0=D1=81=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D0=B5 =D0=
+=B2=D1=8B=D0=BF=D0=BE=D0=BB=D0=BD=D0=B5=D0=BD=D0=B8=D1=8F =D1=8D=D1=82=D0=
+=B0=D0=BF=D0=BE=D0=B2 =D0=B4=D0=B8=D0=BF=D0=BB=D0=BE=D0=BC=D0=BD=D0=BE=D0=
+=B9 =D1=80=D0=B0=D0=B1=D0=BE=D1=82=D1=8B</strong></p>
+<p>=D0=A2=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D1=89=D0=B8=D0=BA: =D0=
+=94=D1=83=D0=B1=D1=80=D0=BE=D0=B2=D1=81=D0=BA=D0=B0=D1=8F =D0=9C=D0=B0=D1=
+=80=D0=B8=D1=8F</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"739df64e-543f-48f2-9cc6-7c2=
+588f626a6" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 340.0px;">
+<col style=3D"width: 340.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th data-highlight-colour=3D"#ffffff" class=3D"confluenceTh"><p>=D1=84=D1=
+=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE=D0=B5=
+ =D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5</=
+p></th>
+<th data-highlight-colour=3D"#ffffff" class=3D"confluenceTh"><p><strong>06.=
+08-10.08</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>=D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=BE=D0=
+=B2=D0=B0=D0=BD=D0=B8=D0=B5 =D0=BD=D0=B0=D0=B3=D1=80=D1=83=D0=B7=D0=BA=D0=
+=B8</p></td>
+<td class=3D"confluenceTd"><p>10.08-11.08</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>=D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=BE=D0=
+=B2=D0=B0=D0=BD=D0=B8=D0=B5 UI</p></td>
+<td class=3D"confluenceTd"><p>11.08-11.08</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>=D0=BF=D1=80=D0=BE=D0=B2=D0=B5=D1=80=D0=BA=D0=
+=B0 =D1=81=D0=BE=D0=B2=D0=BC=D0=B5=D1=81=D1=82=D0=B8=D0=BC=D0=BE=D1=81=D1=
+=82=D0=B8</p></td>
+<td class=3D"confluenceTd"><p>11.08-11.08</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>=D0=BF=D1=80=D0=BE=D0=B2=D0=B5=D1=80=D0=BA=D0=
+=B0 =D0=BF=D1=80=D0=BE=D0=B8=D0=B7=D0=B2=D0=BE=D0=B4=D0=B8=D1=82=D0=B5=D0=
+=BB=D1=8C=D0=BD=D0=BE=D1=81=D1=82=D0=B8</p></td>
+<td class=3D"confluenceTd"><p>10.08-11.08</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>=D0=BF=D1=80=D0=BE=D0=B2=D0=B5=D1=80=D0=BA=D0=
+=B0 =D0=B4=D0=BE=D1=81=D1=82=D1=83=D0=BF=D0=BD=D0=BE=D1=81=D1=82=D0=B8</p><=
+/td>
+<td class=3D"confluenceTd"><p>11.08-11.08</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>=D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=BE=D0=
+=B2=D0=B0=D0=BD=D0=B8=D0=B5 API</p></td>
+<td class=3D"confluenceTd"><p>09.08-10.08</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<p><strong>=D0=91=D0=B0=D0=B3 =D1=80=D0=B5=D0=BF=D0=BE=D1=80=D1=82=D1=8B</s=
+trong></p>
+<p>=D0=91=D0=B0=D0=B3 =D1=80=D0=B5=D0=BF=D0=BE=D1=80=D1=82=D1=8B =D0=BF=D0=
+=BE =D1=84=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C=D0=
+=BD=D0=BE=D0=BC=D1=83 =D1=87=D0=B5=D0=BA-=D0=BB=D0=B8=D1=81=D1=82=D1=83 =D0=
+=9F=D1=80=D0=B5=D0=BF=D0=BE=D0=B4=D0=B0=D0=B2=D0=B0=D1=82=D0=B5=D0=BB=D1=8F=
+: <a href=3D"https://nhl83.atlassian.net/jira/software/projects/NVTA/boards=
+/11" data-card-appearance=3D"inline" class=3D"external-link" rel=3D"nofollo=
+w">https://nhl83.atlassian.net/jira/software/projects/NVTA/boards/11</a> </=
+p>
+<p>=D0=91=D0=B0=D0=B3 =D1=80=D0=B5=D0=BF=D0=BE=D1=80=D1=82=D1=8B =D0=BF=D0=
+=BE =D1=84=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C=D0=
+=BD=D0=BE=D0=BC=D1=83 =D1=87=D0=B5=D0=BA-=D0=BB=D0=B8=D1=81=D1=82=D1=83 =D0=
+=B8 =D0=BE=D1=81=D0=BE=D0=B1=D1=8B=D0=BC =D0=B2=D0=B8=D0=B4=D0=B0=D0=BC =D1=
+=82=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D0=
+=A3=D1=87=D0=B5=D0=BD=D0=B8=D0=BA=D0=B0: <a href=3D"https://nhl83.atlassian=
+.net/jira/software/projects/NVTA/boards/11" data-card-appearance=3D"inline"=
+ class=3D"external-link" rel=3D"nofollow">https://nhl83.atlassian.net/jira/=
+software/projects/NVTA/boards/11</a> </p>
+<p><strong>=D0=9E=D0=BA=D1=80=D1=83=D0=B6=D0=B5=D0=BD=D0=B8=D0=B5 =D1=82=D0=
+=B5=D1=81=D1=82=D0=B8=D1=80=D1=83=D0=B5=D0=BC=D0=BE=D0=B9 =D1=81=D0=B8=D1=
+=81=D1=82=D0=B5=D0=BC=D1=8B: </strong></p>
+<p>=D0=B4=D0=BB=D1=8F =D0=B2=D0=B5=D0=B1-=D0=BF=D1=80=D0=B8=D0=BB=D0=BE=D0=
+=B6=D0=B5=D0=BD=D0=B8=D1=8F - Windows 11 =D0=92=D0=B5=D1=80=D1=81=D0=B8=D1=
+=8F 22H2 =D0=A1=D0=B1=D0=BE=D1=80=D0=BA=D0=B0 =D0=9E=D0=A1 22621.232 =D0=AF=
+=D0=BD=D0=B4=D0=B5=D0=BA=D1=81 =D0=91=D1=80=D0=B0=D1=83=D0=B7=D0=B5=D1=80 =
+=D0=92=D0=B5=D1=80=D1=81=D0=B8=D1=8F <br>22.7.1.806 (64-bit)</p>
+<p>=D0=B4=D0=BB=D1=8F =D0=BC=D0=BE=D0=B1=D0=B8=D0=BB=D1=8C=D0=BD=D0=BE=D0=
+=B3=D0=BE =D0=BF=D1=80=D0=B8=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=B8=D1=8F - Ip=
+hone 11 IOS 15.6 =D0=94=D0=B8=D0=B0=D0=B3=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C =D1=
+=8D=D0=BA=D1=80=D0=B0=D0=BD=D0=B0 6.1 =D0=A0=D0=B0=D0=B7=D1=80=D0=B5=D1=88=
+=D0=B5=D0=BD=D0=B8=D0=B5 =D1=8D=D0=BA=D1=80=D0=B0=D0=BD=D0=B0 1792=C3=97828=
+ App version: Skyeng 9.65.0(568):SDK 6.4</p>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_30_896856046.1660731186364
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/58a8145fbff19f24bb3832de0f43f94b
+
+iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6CAMAAAC/MqoPAAADAFBMVEX19fXv7+98fHx1dXV9fX23
+t7eenp5wcHDn5+f09PTz8/Pd3d2SkpLY2Njt7e3Q0NCioqJycnKqqqq7u7uurq6CgoKGhobOzs7D
+w8PR0dGNjY3Hx8fj4+PGxsbS0tKoqKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAABYhwFnAAAFC0lEQVR4Xu3cC1fiRhTA8TEEJrwCFB9YRaff/0OtZ+tprT0e64og
+KqSZvDMEd3FLIuX/OxqTO5cZLolh1wwRAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB2
+wIEZ2A5nuayZsTUWlvVsxnaYY9cdM7aOU7d+OHcHNOpm5D31hhnZCssMbMUPH+2B2tKM7DBpBt63
+YfoHlbPXP6U9Ln2jX8IPsxdmxB015tbhkTc3G7TV9G2oqPTutDZ78cRi0i2qfSV9h5nnrRN5Gq6c
+ym6+JWCm7zKjFte+iFd7NTfbEiqn9EpOc4P+13j1oTfItpTJNgNlmM7S9Xklz6A8xhFcy/ynydUn
+WqP9/3vAN20v3fhW2V6vovRPgtL3EaXvo8pKL+cN7D2VlV49St9HlL6PKH0fUfo+ovTqtFotM1SS
+SkrXxb5GV5Jr9aloVlJ9FaXPHhx/Z/fDje5SCO8hn1COKkoXrZ6Y9u9HQv9F/m4qRK+SvV7JhSfP
+ehbfWrW2dXjf9fzS67P8FfVyLjxVUnrnsfUqXkS39mQ9vgrRnrXyV97KKb0c5t8lxjIzXcaxztKN
+gJm+y1ZqGdrteLUrh9kWbSV9h63WMrb6J06z6Zz0bXOfF6XvroJa3HrHlgO7Uy+YuVeQvrM2rGXD
+9A+q5H39c6D0LVtsNPXTKedtvZzSrY2KWZT0pMzAVljeJtODSyq94K1lG/Z3UjgAAAAAAAAA4PNT
+wVcxZQZiygwUMj5gp8IfV9nYz1NXZuRn/Rc9mp8tvNILlY99VldmIHZlBgrlr/G0viSrSm9Kf6lC
+QSxauZSevNTbwYVwnRS0HkopD/Va3N71A3Lod6Ufpi79jTOd0/ZbBlIOHP8xQ387ex8ava37iLvI
+hDt6ilnYHvWYyct1pJKh1yQUOAgv6qvouxGUnoSaUbwuR+5I96vkhRAXSely7I7lKNMuG44fibpQ
+suv+KoOF3zI+cI+PdHDkntfSa1JDOXQvBtkhgq8zeeZ2ZSNtD3vMPZVMRyodujihwHmu9LZsq2iU
+YNnSn8L1V6S+wU5dl9Q5FuK4E2b4r2sUTtrledQSLLpCOMEimjTh6h56IhlVCx4a/wyGCEc8idLi
+dhUt0rxsR7ohGro4IZA/4HNbzbfmU3ZbLOPDRb92wevXf3Ddh2jGpxA6OwjH7cO/jw6jp+B7E+I5
+WJz6r+pAql/0VcVX//s6unuDFu+WZIjQjed5ts43d1uSZ3SUDL0uwTzN/ZmdtXh8Y9xCo/6S3/a7
+kraYXyszHPvj4mZhN+JHBZ/Xjz60/9Zr385+81emUeN3jK/Fd64KGx3lh9ZWRsrv9aPMTTPaN43M
+zQW053gqq57zFk4W6Dw9dZL2JJysfH1Z2P4T/rI6B3ZyPU2Ph4x4DkI6RCDZ2VEs6dHIS0VDr0/I
+l96+S+sQb95juqH1rEm4spz45zMrSJ3F+1H533E4aZdDx9Wna8ddqf3ZPbk1Y75jyz+N1XJDaIOb
+Q8cZyrQ97tHI01SwjIcuSIjlSj86tcP3L6W3zLf8Z0//uvheR7cPt6M7vTqdz9MDqXs7v23fZdoH
+E2+u70qwvH9SSVbAOZj/08yHAr8vJ/O/BrkhtJvjR8+bDNL2uEcjLxUPvTbBoFZWNqHMQFVa2fP4
+euVMWylX+bd7UWZgA+G/GJUZ/hBPjs0QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOyffwFv
+4xKfHr6RqgAAAABJRU5ErkJggg==
+------=_Part_30_896856046.1660731186364--
